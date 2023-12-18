@@ -1,0 +1,56 @@
+nav ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: blue;
+    text-decoration: underline solid;
+}
+ul li a{
+    padding: 12px;
+}
+.butons{
+    width: 100px;
+    height: 33px;
+}
+.arrowicons{
+    color: black;
+    width: 40px;
+    height: 40px;
+}
+.images{
+    height: 350px;
+    width: fit-content;
+    background-size: cover;
+}
+.main-head{
+    font-size: 30px;
+    font-weight: bold;
+}
+.sub-head{
+    font-size: 20px;
+    font-weight: 400;
+}
+.carslas{
+    margin-top: 120px;
+}
+@media (max-width: 1024px) {
+    .normal-nav-links{
+        display: none;
+    }
+    .responsivenavs {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .normal-nav-links{
+        display:block;
+    }
+    .responsivenavs {
+        display: none;
+    }
+}
